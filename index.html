@@ -1,344 +1,121 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GitHub Portfolio - Explore career roadmap, AI tools, and learning resources">
-    <meta name="keywords" content="portfolio, AI, career, learning">
-    <meta name="author" content="DeepakTech-A1">
-    
-    <title>GitHub Portfolio - DeepakTech-A1</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Sidebar Navigation -->
-    <aside class="sidebar" id="sidebar">
-        <div class="sidebar-header">
-            <h1 class="logo">DeepakTech</h1>
-            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
+<!-- Explore AI Fields -->
+<section id="explore-ai" class="section">
+  <h2>Explore AI Fields</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="assets/ml.jpg" alt="Machine Learning">
+      <h3>Machine Learning</h3>
+      <p>AI learns patterns from data.</p>
+      <small>Example: Netflix recommending movies.</small>
+    </div>
+    <div class="card">
+      <img src="assets/genai.jpg" alt="Generative AI">
+      <h3>Generative AI</h3>
+      <p>AI creates new content.</p>
+      <small>Example: ChatGPT writing text.</small>
+    </div>
+    <div class="card">
+      <img src="assets/nlp.jpg" alt="NLP">
+      <h3>Natural Language Processing</h3>
+      <p>AI understands human language.</p>
+      <small>Example: Voice assistants like Alexa.</small>
+    </div>
+    <!-- Add more cards: Deep Learning, Computer Vision, Robotics, Data Science -->
+  </div>
+</section>
 
-        <nav class="sidebar-nav">
-            <ul>
-                <li><a href="#home" class="nav-link active" data-section="home">🏠 Home</a></li>
-                <li><a href="#roadmap" class="nav-link" data-section="roadmap">🗺️ Career Roadmap</a></li>
-                <li><a href="#aitools" class="nav-link" data-section="aitools">🤖 AI Tools</a></li>
-                <li><a href="#earn" class="nav-link" data-section="earn">💰 Earn with AI</a></li>
-                <li><a href="#videos" class="nav-link" data-section="videos">📺 Learn (Videos)</a></li>
-                <li><a href="#updates" class="nav-link" data-section="updates">📰 Latest Updates</a></li>
-                <li><a href="#skills" class="nav-link" data-section="skills">⚡ Other Skills</a></li>
-            </ul>
-        </nav>
+<!-- Career Roadmap -->
+<section id="career" class="section">
+  <h2>Career Roadmap</h2>
+  <ol>
+    <li>Basics of AI & Machine Learning</li>
+    <li>Python for AI</li>
+    <li>Data Science fundamentals</li>
+    <li>AI tools usage (no-code & low-code)</li>
+  </ol>
+</section>
 
-        <div class="sidebar-footer">
-            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-                🌙
-            </button>
-        </div>
-    </aside>
+<!-- AI Tools Integration -->
+<section id="tools" class="section">
+  <h2>AI Tools</h2>
+  <h3>Writing Tools</h3>
+  <ul>
+    <li><a href="https://chatgpt.com/" target="_blank">ChatGPT</a></li>
+    <li><a href="https://www.jasper.ai/" target="_blank">Jasper</a></li>
+    <li><a href="https://www.grammarly.com/" target="_blank">Grammarly</a></li>
+  </ul>
+  <h3>Image Generation Tools</h3>
+  <ul>
+    <li><a href="https://gemini.google.com/app" target="_blank">Gemini</a></li>
+    <li><a href="https://chatgpt.com/images" target="_blank">ChatGPT Images</a></li>
+  </ul>
+  <h3>Video Creation Tools</h3>
+  <ul>
+    <li><a href="https://wan.video/" target="_blank">WAN</a></li>
+    <li><a href="https://www.veed.io/" target="_blank">Veed</a></li>
+  </ul>
+  <h3>Coding Assistants</h3>
+  <ul>
+    <li><a href="https://copilot.microsoft.com/" target="_blank">Copilot</a></li>
+    <li><a href="https://chatgpt.com/codex" target="_blank">Codex</a></li>
+  </ul>
+  <a href="https://aichief.com/ai-tools/" target="_blank" class="btn">Explore More Tools</a>
+</section>
 
-    <!-- Main Content -->
-    <main class="main-content">
-        <!-- Home Section -->
-        <section id="home" class="section active">
-            <div class="container">
-                <div class="hero">
-                    <div class="hero-content">
-                        <h1 class="hero-title">Welcome to My Portfolio</h1>
-                        <p class="hero-subtitle">Discover AI, Career Growth & Learning Resources</p>
-                        <button class="cta-button" onclick="document.querySelector('.nav-link[data-section=\"roadmap\"]').click()">Explore Now</button>
-                    </div>
-                    <div class="hero-image">
-                        <div class="avatar">👨‍💻</div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- Earn Money Using AI -->
+<section id="earn" class="section">
+  <h2>Earn with AI</h2>
+  <article>
+    <h3>Freelancing with AI tools</h3>
+    <p>Offer AI-powered services on platforms like Upwork.</p>
+  </article>
+  <article>
+    <h3>Content writing using AI</h3>
+    <p>Use AI to draft blogs and articles quickly.</p>
+  </article>
+  <article>
+    <h3>YouTube automation</h3>
+    <p>Create faceless channels with AI-generated scripts.</p>
+  </article>
+  <article>
+    <h3>AI-based digital products</h3>
+    <p>Sell AI-generated art, templates, or eBooks.</p>
+  </article>
+</section>
 
-        <!-- Career Roadmap Section -->
-        <section id="roadmap" class="section">
-            <div class="container">
-                <h2>🗺️ Career Roadmap</h2>
-                <div class="roadmap-timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-marker">1</div>
-                        <div class="timeline-content">
-                            <h3>Foundation</h3>
-                            <p>Master HTML, CSS & JavaScript fundamentals</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-marker">2</div>
-                        <div class="timeline-content">
-                            <h3>Frontend Development</h3>
-                            <p>Learn React, Vue, or Angular for modern web apps</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-marker">3</div>
-                        <div class="timeline-content">
-                            <h3>Backend Development</h3>
-                            <p>Explore Node.js, Python, or Java for server-side</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-marker">4</div>
-                        <div class="timeline-content">
-                            <h3>Full Stack & AI</h3>
-                            <p>Combine skills with AI/ML integration</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- Beginner YouTube Learning -->
+<section id="learn" class="section">
+  <h2>Learn (Videos)</h2>
+  <div class="video-grid">
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/SeuS84YeJVc" frameborder="0" allowfullscreen></iframe>
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/YG1sW00jwLY" frameborder="0" allowfullscreen></iframe>
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/HAN2z7vLsIE" frameborder="0" allowfullscreen></iframe>
+  </div>
+</section>
 
-        <!-- AI Tools Section -->
-        <section id="aitools" class="section">
-            <div class="container">
-                <h2>🤖 AI Tools Directory</h2>
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-icon">🎨</div>
-                        <h3>Image Generation</h3>
-                        <p>Create stunning visuals with DALL-E, Midjourney, or Stable Diffusion</p>
-                        <a href="#" class="tool-link">Explore →</a>
-                    </div>
-                    <div class="tool-card">
-                        <div class="tool-icon">📝</div>
-                        <h3>Text & Writing</h3>
-                        <p>Generate content with ChatGPT, Claude, or Gemini</p>
-                        <a href="#" class="tool-link">Explore →</a>
-                    </div>
-                    <div class="tool-card">
-                        <div class="tool-icon">🎵</div>
-                        <h3>Audio & Music</h3>
-                        <p>Create music and audio with Jukebox or Soundraw</p>
-                        <a href="#" class="tool-link">Explore →</a>
-                    </div>
-                    <div class="tool-card">
-                        <div class="tool-icon">🎬</div>
-                        <h3>Video Generation</h3>
-                        <p>Make videos with Synthesia, Runway, or D-ID</p>
-                        <a href="#" class="tool-link">Explore →</a>
-                    </div>
-                    <div class="tool-card">
-                        <div class="tool-icon">💻</div>
-                        <h3>Code Generation</h3>
-                        <p>Write code faster with GitHub Copilot or Tabnine</p>
-                        <a href="#" class="tool-link">Explore →</a>
-                    </div>
-                    <div class="tool-card">
-                        <div class="tool-icon">🔍</div>
-                        <h3>Research & Analysis</h3>
-                        <p>Analyze data with ChatGPT Advanced Data Analysis</p>
-                        <a href="#" class="tool-link">Explore →</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- Latest AI Updates -->
+<section id="updates" class="section">
+  <h2>Latest AI Updates</h2>
+  <div id="news-container">Loading latest AI news...</div>
+</section>
 
-        <!-- Earn with AI Section -->
-        <section id="earn" class="section">
-            <div class="container">
-                <h2>💰 Earn with AI</h2>
-                <div class="earn-cards">
-                    <div class="earn-card">
-                        <h3>💳 Freelancing</h3>
-                        <p>Offer AI services on Fiverr, Upwork, or Freelancer</p>
-                        <ul>
-                            <li>AI Prompt Engineering</li>
-                            <li>Content Creation</li>
-                            <li>Image Generation</li>
-                        </ul>
-                    </div>
-                    <div class="earn-card">
-                        <h3>📚 Create Courses</h3>
-                        <p>Teach AI skills on Udemy, Coursera, or Skillshare</p>
-                        <ul>
-                            <li>AI Basics</li>
-                            <li>Tool Mastery</li>
-                            <li>Monetization Strategies</li>
-                        </ul>
-                    </div>
-                    <div class="earn-card">
-                        <h3>📱 Social Media</h3>
-                        <p>Build audience and earn through sponsorships</p>
-                        <ul>
-                            <li>YouTube Tutorials</li>
-                            <li>TikTok/Instagram Tips</li>
-                            <li>Twitter Thread Threads</li>
-                        </ul>
-                    </div>
-                    <div class="earn-card">
-                        <h3>🛠️ Build Products</h3>
-                        <p>Create and sell AI-powered tools</p>
-                        <ul>
-                            <li>Web Apps</li>
-                            <li>Browser Extensions</li>
-                            <li>Plugins & Templates</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- Other Skills -->
+<section id="skills" class="section">
+  <h2>Other Skills</h2>
+  <p>Explore animation, design, marketing, and more.</p>
+  <iframe width="360" height="215" src="https://www.youtube.com/embed/5epzCprCdGc" frameborder="0" allowfullscreen></iframe>
+  <!-- Add more embedded playlists/videos as per your list -->
+</section>
 
-        <!-- Learn Videos Section -->
-        <section id="videos" class="section">
-            <div class="container">
-                <h2>📺 Learn (Videos)</h2>
-                <p class="section-subtitle">Recommended learning resources</p>
-                <div class="videos-grid">
-                    <div class="video-card">
-                        <div class="video-thumbnail">▶️</div>
-                        <h3>AI Fundamentals Playlist</h3>
-                        <p>Start with AI basics and concepts</p>
-                        <span class="duration">12 videos</span>
-                    </div>
-                    <div class="video-card">
-                        <div class="video-thumbnail">▶️</div>
-                        <h3>ChatGPT Mastery</h3>
-                        <p>Advanced prompting techniques</p>
-                        <span class="duration">8 videos</span>
-                    </div>
-                    <div class="video-card">
-                        <div class="video-thumbnail">▶️</div>
-                        <h3>Web Development 2024</h3>
-                        <p>Modern web dev with AI integration</p>
-                        <span class="duration">25 videos</span>
-                    </div>
-                    <div class="video-card">
-                        <div class="video-thumbnail">▶️</div>
-                        <h3>Business with AI</h3>
-                        <p>Monetize your AI skills</p>
-                        <span class="duration">10 videos</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- Beginner Mode -->
+<section id="beginner" class="section">
+  <h2>Beginner Mode</h2>
+  <p>Simple explanations, tooltips, and guided steps.</p>
+  <button id="start-here">Start Here</button>
+</section>
 
-        <!-- Latest Updates Section -->
-        <section id="updates" class="section">
-            <div class="container">
-                <h2>📰 Latest Updates</h2>
-                <div class="updates-list">
-                    <article class="update-item">
-                        <span class="update-date">2026-04-05</span>
-                        <h3>GPT-4 Turbo Released</h3>
-                        <p>New model with improved reasoning and 128K context window</p>
-                    </article>
-                    <article class="update-item">
-                        <span class="update-date">2026-04-03</span>
-                        <h3>AI Code Generation Market Grows</h3>
-                        <p>Demand for AI coding tools increases by 300% this quarter</p>
-                    </article>
-                    <article class="update-item">
-                        <span class="update-date">2026-04-01</span>
-                        <h3>New AI Regulations Announced</h3>
-                        <p>EU AI Act enforcement begins with compliance guidelines</p>
-                    </article>
-                    <article class="update-item">
-                        <span class="update-date">2026-03-28</span>
-                        <h3>AI Tool Bundle Launch</h3>
-                        <p>Subscribe to 50+ premium AI tools with single membership</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- Other Skills Section -->
-        <section id="skills" class="section">
-            <div class="container">
-                <h2>⚡ Other Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Frontend</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">HTML5</span>
-                            <span class="skill-tag">CSS3</span>
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">Responsive Design</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Backend</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">MongoDB</span>
-                            <span class="skill-tag">PostgreSQL</span>
-                            <span class="skill-tag">REST APIs</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>AI & Tools</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">ChatGPT</span>
-                            <span class="skill-tag">Prompt Engineering</span>
-                            <span class="skill-tag">GitHub Copilot</span>
-                            <span class="skill-tag">DALL-E</span>
-                            <span class="skill-tag">Automation</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Tools & Platforms</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Git/GitHub</span>
-                            <span class="skill-tag">VS Code</span>
-                            <span class="skill-tag">Docker</span>
-                            <span class="skill-tag">Cloudflare</span>
-                            <span class="skill-tag">CI/CD</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section class="section contact-section">
-            <div class="container">
-                <h2>Get In Touch</h2>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Name *</label>
-                        <input type="text" id="name" name="name" required>
-                        <span class="error-message" id="nameError"></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
-                        <span class="error-message" id="emailError"></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message *</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                        <span class="error-message" id="messageError"></span>
-                    </div>
-                    <button type="submit" class="submit-button">Send Message</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 DeepakTech-A1. All rights reserved. | Built with HTML, CSS & JavaScript</p>
-            <div class="social-links">
-                <a href="#" title="GitHub">GitHub</a>
-                <a href="#" title="Twitter">Twitter</a>
-                <a href="#" title="LinkedIn">LinkedIn</a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Notification Toast -->
-    <div class="toast" id="toast"></div>
-
-    <script src="script.js"></script>
-</body>
-</html>
+<!-- Search -->
+<section id="search" class="section">
+  <h2>Search</h2>
+  <input type="text" id="search-bar" placeholder="Search tools, topics, or videos...">
+</section>
